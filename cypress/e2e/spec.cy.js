@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 describe('page', () => {
   it('works', () => {
-    cy.visit('./app/files.html');
+    cy.visit('./app/file.html');
 
     cy.get('input[type=file]')
       .first()
